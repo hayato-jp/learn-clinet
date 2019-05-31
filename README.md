@@ -1,3 +1,1 @@
-# learn-clinet
-# learn-clinet
-# learn-clinet
+# フロントエンドの勉強をするリポジトリ
