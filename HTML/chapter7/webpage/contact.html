@@ -43,6 +43,15 @@
         margin-bottom: 30px;
         width: 420px;
       }
+      input,textarea {
+        border: solid 1px #66aa66
+      }
+      p#button input {
+        border: outset 3px #66aa66;
+        background-color: #66aa66;
+        color: #ffffff;
+        width: 100px;
+      }
     </style>
   </head>
     <body>
@@ -75,7 +84,7 @@
           <p>コメント：<br />
             <textarea name="comment" cols="50" rows="8"></textarea>
           </p>
-          <p>
+          <p id="button">
             <input type="submit" value="送信"/>
             <input type="reset" value="リセット"/>
           </p>
